@@ -3,8 +3,8 @@
     /* Ruta de la aplicacion */
     define('RUTA_APP', dirname(dirname(__FILE__)));
 
-    define('RUTA_URL', 'http://localhost:80/ARAME-gest');
-    // define('RUTA_URL', 'https://aramegest.alcanalytics.com');
+    // define('RUTA_URL', 'http://localhost:80/ARAME-gest');
+    define('RUTA_URL', 'https://aramegest.alcanalytics.com');
 
     define('NOMBRE_SITIO', 'ARAME - Gestión de socias');
     define('VERSION', '1.5');
