@@ -1,0 +1,197 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.recibo {
+    width: 21cm;
+    height: 29.7cm;
+}
+
+.logo {
+    max-width: 60mm;
+    text-align: left;
+
+}
+
+.logo-arame {
+    width: 50%;
+    padding: 0;
+    text-align: left;
+}
+
+.info-arame {
+    display: inline;
+    text-align: right;
+    font-size: small;
+    width: 50%;
+}
+
+header {
+    margin-top: 2cm;
+    justify-content: space-between;
+    margin-bottom: 1cm;
+}
+
+.row2 {
+    display: block;
+    text-align: right;
+    margin-bottom: 1cm;
+}
+
+.row3 {
+    display: block;
+    justify-content: space-between;
+    margin-bottom: 3cm;
+}
+
+.row4 {
+    display: block;
+    width: 100%;
+    margin-bottom: 3cm;
+}
+
+.row5 {
+    display: block;
+    justify-content: end;
+    margin-top: auto;
+    margin-bottom: 3cm;
+}
+
+.info-arame-destacado {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.num-recibo {
+    width: fit-content;
+    font-size: large;
+    word-break: keep-all;
+    white-space: nowrap;
+    margin-left: 0.2cm;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: right;
+    vertical-align: bottom;
+}
+
+.div-hr {
+    width: 100%;
+    padding-right: 5mm;
+}
+
+hr {
+    border: 2px solid #00D2C7;
+    background-color: #00D2C7;
+    vertical-align: bottom;
+    margin: auto;
+
+}
+
+.recuadro {
+    border: 3px #00D2C7 solid;
+    padding: 0.3cm;
+}
+
+.info-socia, .td-fecha {
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    line-height: 6mm;
+    height: fit-content;
+    overflow: hidden;
+}
+
+.info-socia {
+    width: 12cm;
+}
+
+td {
+    padding: 2mm auto;
+}
+
+.td-fecha {
+    padding-bottom: 1mm auto;
+    vertical-align: top;
+    text-align: center;
+    width: 50mm;
+}
+
+.td-td-fecha {
+    padding: 1mm;
+}
+
+span {
+    padding-top: 2mm;
+}
+
+.fecha {
+    width: 3cm;
+    white-space: nowrap;
+
+}
+
+.table-fecha {
+    margin-top: 0;
+}
+
+.td-fecha, .concepto, .cuantia, .td-detalles-pago {
+    background-color: #f8f8f8;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    text-align: center;
+}
+
+th {
+    background-color: #00D2C7;
+    color: white;
+    text-transform: uppercase;
+    padding: 1mm;
+}
+
+.concepto {
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    border-right: 3px #00D2C7 solid;
+
+}
+
+.tabla.detalles-pago {
+    margin-left: auto;
+}
+
+.th-detalles-pago {
+    margin: 0;
+    padding: 1mm;
+}
+
+.detalles-pago {
+    width: 60%;
+    text-align: center;
+    padding: auto 20mm;
+}
+
+.titulo-detalles-pago {
+    font-weight: bold;
+}
+
+.modo-pago {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+footer {
+    font-size: x-small;
+    text-align: right;
+    line-height: auto;
+}

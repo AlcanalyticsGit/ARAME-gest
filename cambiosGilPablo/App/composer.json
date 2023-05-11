@@ -1,0 +1,22 @@
+{
+    "require": {
+        "php": "^8.0|^8.1",
+        "mpdf/mpdf": "8.0.10",
+        "symfony/symfony": "^6.2",
+        "symfony/mailer": "*",
+        "egulias/email-validator": "^4.0",
+        "symfony/google-mailer": "^6.2",
+        "symfony/infobip-mailer": "^6.2",
+        "symfony/mailgun-mailer": "^6.2",
+        "symfony/mailjet-mailer": "^6.2",
+        "symfony/mailchimp-mailer": "^6.2",
+        "symfony/amazon-mailer": "^6.2",
+        "symfony/postmark-mailer": "^6.2",
+        "symfony/sendgrid-mailer": "^6.2",
+        "symfony/oh-my-smtp-mailer": "^6.2",
+        "symfony/sendinblue-mailer": "^6.2",
+        "symfony/messenger": "*",
+        "ext-gd": "*",
+        "phpoffice/phpspreadsheet": "^1.27"
+    }
+}

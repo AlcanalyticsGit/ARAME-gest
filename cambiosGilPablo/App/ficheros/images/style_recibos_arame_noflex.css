@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    border-radius: 8px;
+}
+
+.recibo {
+    width: 21cm;
+    height: 29.7cm;
+}
+
+.container {
+    margin-left: 2cm;
+    margin-right: 2cm;
+    height: 297mm;
+}
+
+.logo {
+    max-width: 200px;
+    float: left;
+    width: 50%;
+
+}
+.logo-arame {
+    width: 50%;
+    float: left;
+}
+
+.info-arame {
+    display: inline;
+    text-align: right;
+    font-size: small;
+    float: right;
+    width: 50%;
+}
+
+header {
+    clear: both;
+    margin-top: 2cm;
+    justify-content: space-between;
+    margin-bottom: 1cm;
+}
+
+.row2 {
+    clear: both;
+    display: block;
+    text-align: right;
+    margin-bottom: 1cm;
+}
+
+.row3 {
+    clear: both;
+    display: block;
+    justify-content: space-between;
+    margin-bottom: 5cm;
+}
+
+.row4 {
+    clear: both;
+    display: block;
+    width: 100%;
+    margin-bottom: 1cm;
+}
+
+.row5 {
+    clear: both;
+    display: block;
+    justify-content: end;
+    margin-top: auto;
+}
+
+.info-arame-destacado {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.num-recibo {
+    word-break: keep-all;
+    white-space: nowrap;
+    margin-left: 0.2cm;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: right;
+    float: right;
+    width: 30%;
+    vertical-align: bottom;
+}
+
+.div-hr {
+    justify-content: center;
+    width: 60%;
+    float: right;
+    vertical-align: middle;
+}
+
+hr {
+    margin: 0 auto;
+    border: 2px solid #00D2C7;
+    width: 100%;
+}
+
+.recuadro {
+    border: 3px #00D2C7 solid;
+    padding: 0.3cm;
+}
+
+.info-socia {
+    width: 60%;
+    float: left;
+}
+
+.fecha {
+    width: fit-content;
+    height: fit-content;
+    margin-left: 1cm;
+    white-space: nowrap;
+    float: right;
+    width: 30%;
+
+}
+
+.table-wrapper {
+    width: 100%;
+    overflow: hidden;
+    border: 3px #00D2C7 solid;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border-radius: 0;
+    text-align: center;
+}
+
+th {
+    background-color: #00D2C7;
+    color: white;
+    text-transform: uppercase;
+}
+
+th {
+    padding: 0.1cm;
+}
+
+td {
+    padding: 1cm;
+}
+
+.concepto {
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    border-right: 3px #00D2C7 solid;
+
+}
+
+.detalles-pago {
+    width: fit-content;
+    text-align: center;
+    padding: 0.5cm 2cm;
+    float: right;
+}
+
+.titulo-detalles-pago {
+    margin-bottom: 0.3cm;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.modo-pago {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+footer {
+    clear: both;
+    bottom: 0;
+    text-align: right;
+    margin-top: auto;
+    font-size: x-small;
+}

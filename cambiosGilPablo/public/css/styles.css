@@ -1,0 +1,169 @@
+:root {
+    --color-principal: #14a6b1;
+    --color-principal-resaltado: #ff3c02;
+    --color-principal-gradient: linear-gradient(355deg, rgba(20,154,164,1) 0%, rgba(20,166,177,1) 34%, rgba(26,189,201,1) 100%);
+}
+
+.fondo {
+    background-image: url("../img/logos/ARAME LOGOTIPO 2018-v2_fondo_transparente.png");
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    width: 100ch;
+    height: 100vh;
+    position: fixed;
+    right: 2em;
+    bottom: 4em;
+    z-index: -99;
+    filter: blur(.4px) opacity(20%);
+}
+
+.bg-principal {
+    background-color: var(--color-principal) !important;
+}
+
+.bg-primary {
+    background-color: var(--color-principal) !important;
+}
+
+.bg-principal-gradient {
+    background: linear-gradient(355deg, rgba(20,154,164,1) 0%, rgba(20,166,177,1) 34%, rgba(26,189,201,1) 100%);
+}
+
+.bg-principal-gradient-login {
+    background: linear-gradient(320deg, rgba(20,154,164,1) 0%, rgba(20,166,177,1) 34%, rgba(26,189,201,1) 100%);
+}
+
+.bg-premio {
+    background: rgb(223,162,17);
+    background: linear-gradient(355deg, rgba(223,162,17,1) 0%, rgba(238,217,8,1) 100%);
+}
+
+.color-premio {
+    color: rgb(223,162,17);
+    color: linear-gradient(355deg, rgba(223,162,17,1) 0%, rgba(238,217,8,1) 100%);
+}
+
+.logo-cabecera {
+    max-width: 8rem;
+}
+
+.logo-login {
+    max-width: 100%;
+}
+
+.color-principal-highlight {
+    color: var(--color-principal-resaltado);
+}
+
+.fondo-principal-highlight {
+    background-color: var(--color-principal-resaltado);
+    color: white;
+}
+
+button.boton-login:hover {
+    color: var(--color-principal);
+}
+
+.color-principal {
+    color: var(--color-principal);
+}
+
+.color-destacado:hover {
+    color: var(--color-principal-resaltado);
+}
+
+.nav-link-primary {
+    color: var(--color-principal);
+    ;
+}
+
+.nav-link-primary:hover {
+    color: var(--color-principal-resaltado);
+}
+
+.nav-link.danger-delete:hover {
+    color: var(--bs-danger);
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active {
+    background-color: var(--color-principal-resaltado);
+    color: white;
+    border-color: transparent;
+}
+
+.btn-primary {
+    background-color: var(--color-principal);
+}
+
+.del:hover {
+    background-color: var(--bs-danger);
+}
+
+.btn-outline-primary {
+    color: var(--color-principal);
+    border-color: var(--color-principal);
+}
+
+.btn-outline-primary:active,
+.btn-outline-primary:hover {
+    color: white;
+    background-color: var(--color-principal);
+    border-color: var(--color-principal);
+}
+
+#btn-depuracion {
+    position: fixed;
+    z-index: 999;
+    bottom: 10px;
+    right: 10px;
+    background-color: var(--color-principal-resaltado);
+    border-color: var(--color-principal-resaltado);
+    border-radius: 250px;
+    height: 50px;
+    min-width: 50px;
+    color: white;
+}
+
+#superposicion-carga {
+    position: fixed;
+    z-index: 9999;
+    background-color: hsla(0, 0%, 100%, 0.541);
+    width: 100%;
+    height: 100%;
+}
+
+span.page-link.paginaSeleccionada {
+    /* background-color: var(--color-principal-resaltado);
+    border-color: var(--color-principal-resaltado); */
+    background-color: var(--color-principal);
+    border-color: var(--color-principal);
+}
+
+a.page-link.color-principal:hover {
+    color: var(--color-principal-resaltado);
+}
+
+.loader {
+    margin: auto;
+    border: 10px solid #f3f3f3; /* Light grey */
+    border-top: 10px solid var(--color-principal); /* Blue */
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: spin 2s linear infinite;
+    filter: drop-shadow(0 0 0.75rem hsla(0, 0%, 0%, 0.25));
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  img.profilepic {
+    /* max-height: 30rem;
+    max-width: 30rem; */
+    width: 100%;
+  }
